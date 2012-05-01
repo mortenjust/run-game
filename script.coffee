@@ -46,8 +46,8 @@ countdown = ->
 		alert Math.round points
 
 updatePoints = (howMuch) -> 
-	$('#points').html Math.round(points+=howMuch)
-
+	$('#points').html Math.round (points+=howMuch)
+ 
 
 updateMeter = (diff) ->
 	meter = $('#meter')
