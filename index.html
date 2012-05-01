@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Walk at speed</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name = "viewport" content = "initial-scale = 1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+<body>
+
+<div id="all">
+
+
+<div id="meter">
+	<div id="seg20"  class="red segment"></div>
+	<div id="seg40"  class="yellow segment"></div>
+	<div id="seg60"  class="green segment"></div>
+	<div id="seg80"  class="yellow segment"></div>
+	<div id="seg100" class="red segment"></div>
+
+	<div id="gradient-overlay"></div>
+
+	<div id="indicator"></div>
+</div>
+
+<div id="cheer"></div>
+
+<ul>
+	<li>
+		<div id="target-header" class="readout-header">Target speed</div>
+		<div id="target" class="readout"></div>
+
+		<div id="speed-header" class="readout-header">Your actual speed</div>
+		<div id="speed" class="readout"></div>
+	</li>
+	<li>
+		<div id="points-header" class="readout-header">Points</div>
+		<div id="points" class="readout"></div>
+	</li>
+	<li>
+		<div id="time-header" class="readout-header">Time left</div>
+		<div id="time" class="readout"></div>
+	</li>
+</ul>
+
+
+<div id="status"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+
+</div>
+</body>
+</html>

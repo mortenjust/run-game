@@ -1,0 +1,67 @@
+body {
+  background: #222222;
+  color: #eeeeee;
+  font-family: helvetica, arial;
+  padding: 0;
+  margin: 0; }
+  body #all {
+    height: 1000px; }
+    body #all #cheer {
+      font-size: 300%;
+      -webkit-transition: opacity 1ms ease-in;
+      text-shadow: 0px -1px 0px black;
+      font-weight: bold;
+      text-align: center; }
+    body #all #meter {
+      width: 100%;
+      position: relative;
+      height: 20px;
+      box-shadow: 2px -2px black; }
+      body #all #meter #gradient-overlay {
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.65) 83%, rgba(0, 0, 0, 0.65) 99%);
+        opacity: 0.5;
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        left: 0;
+        right: 0; }
+      body #all #meter #indicator {
+        position: absolute;
+        left: 50%;
+        width: 3px;
+        height: 20px;
+        background: black;
+        -webkit-transition: all 300ms ease-in;
+        opacity: 1; }
+      body #all #meter .red {
+        background: red; }
+      body #all #meter .yellow {
+        background: yellow; }
+      body #all #meter .green {
+        background: green; }
+      body #all #meter .segment {
+        width: 20%;
+        height: 20px;
+        float: left;
+        -webkit-transition: all 300ms ease-in; }
+    body #all ul {
+      margin: 0;
+      padding: 10px; }
+      body #all ul li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 50%; }
+        body #all ul li .readout-header {
+          font-size: 100%;
+          text-shadow: 0px -1px 0px black;
+          color: rgba(255, 255, 255, 0.5); }
+        body #all ul li .readout {
+          font-size: 300%;
+          font-weight: bold;
+          text-shadow: 0px -1px 0px black;
+          color: #666666; }
+    body #all #status {
+      clear: both;
+      font-size: 50%; }
